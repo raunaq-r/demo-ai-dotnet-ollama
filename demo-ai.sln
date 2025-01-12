@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatCompletion", "ChatCompletion\ChatCompletion.csproj", "{0FE71B48-8E3E-4C1D-88DD-F63F1CC85BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHistory", "ChatHistory\ChatHistory.csproj", "{33456282-4052-484E-BB65-213246F9C11B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE71B48-8E3E-4C1D-88DD-F63F1CC85BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE71B48-8E3E-4C1D-88DD-F63F1CC85BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE71B48-8E3E-4C1D-88DD-F63F1CC85BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE71B48-8E3E-4C1D-88DD-F63F1CC85BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33456282-4052-484E-BB65-213246F9C11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33456282-4052-484E-BB65-213246F9C11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33456282-4052-484E-BB65-213246F9C11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33456282-4052-484E-BB65-213246F9C11B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9470E92-9F60-4BBD-AB35-2B89A0C8572E}
+	EndGlobalSection
+EndGlobal
