@@ -68,4 +68,10 @@ await foreach(var result in results.Results)
     Console.WriteLine($"Score: {result.Score}");
     Console.WriteLine();
 }
-
+// -----------------------------------------------------------------
+// Generate embedings
+var embedding = await generator.GenerateAsync(new List<string> {
+    "What is AI?"
+});
+Console.WriteLine("Embeddings: ");
+Console.WriteLine(string.Join(", ", embedding[0].Vector.ToArray()));
